@@ -1,1 +1,1 @@
-# DDSM
+# DDSM: Denoising Diffusion Step-aware Models
