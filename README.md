@@ -1,4 +1,4 @@
-# DDSM: Denoising Diffusion Step-aware Models
+# DDSM: Denoising Diffusion Step-aware Models (ICLR2024)
 
 ## TODO
 
