@@ -1,6 +1,6 @@
 # DDSM: Denoising Diffusion Step-aware Models (ICLR 2024)
 
-**DDSM: Denoising Diffusion Step-aware Models**   
+**Denoising Diffusion Step-aware Models**   
 [Shuai Yang](https://scholar.google.com/citations?hl=zh-CN&user=zBHAeuUAAAAJ), [Yukang Chen](https://yukangchen.com), [Luozhou Wang](https://scholar.google.com/citations?user=FMoFIBUAAAAJ&hl=zh-CN), [Shu Liu](http://shuliu.me/), [Yingcong Chen](https://www.yingcong.me)
 
 [[Paper]](https://arxiv.org/abs/2310.03337)
@@ -11,7 +11,7 @@
 * 🚀 Compatible with sampling schedulers like DDIM and EDM
 
 ## Introduction
-We introduce DDSM, a novel framework optimizing diffusion models by dynamically adjusting neural network sizes per generative step, guided by evolutionary search. This method reduces computational load significantly—achieving up to 76% savings on tasks like ImageNet generation—without sacrificing generation quality. Dive into DDSM for efficient, high-quality model generation!
+We introduce DDSM, a novel framework optimizing diffusion models by dynamically adjusting neural network sizes per generative step, guided by evolutionary search. This method reduces computational load significantly—achieving up to 76% savings on tasks like ImageNet generation—without sacrificing generation quality.
 
 ## Install Requirements
 ```bash
