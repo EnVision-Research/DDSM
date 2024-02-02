@@ -19,7 +19,7 @@ pip install -r requirements.txt
 ```
 
 ## Inference and Evaluation
-1. prepare the pretrained supernet and flagfile (Download [supernet checkpoint]() and [flagfile]()here)
+1. prepare the pretrained supernet and flagfile (Download [supernet checkpoint]() and [flagfile]() here)
 2. save the search result to work_dir/search.txt (Download [search result]() here)
 3. run the following script
 ```bash
@@ -27,7 +27,7 @@ python main.py --flagfile work_dir/flagfile.txt --notrain --eval_stepaware -para
 ```
 
 ## Search
-1. prepare the pretrained supernet and flagfile (Download [supernet checkpoint]() and [flagfile]()here)
+1. prepare the pretrained supernet and flagfile (Download [supernet checkpoint]() and [flagfile]() here)
 2. run the following script
 ```bash
 python main.py --search --flagfile work_dir/flagfile.txt --parallel --batch_size 2048 --ckpt_name ckpt_450000 \
