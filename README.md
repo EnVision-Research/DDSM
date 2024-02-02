@@ -1,10 +1,11 @@
-# DDSM: Denoising Diffusion Step-aware Models
+# DDSM: Denoising Diffusion Step-aware Models (ICLR 2024)
 
 **DDSM: Denoising Diffusion Step-aware Models**   
 [Shuai Yang](https://scholar.google.com/citations?hl=zh-CN&user=zBHAeuUAAAAJ), [Yukang Chen](https://yukangchen.com), [Luozhou Wang](https://scholar.google.com/citations?user=FMoFIBUAAAAJ&hl=zh-CN), [Shu Liu](http://shuliu.me/), [Yingcong Chen](https://www.yingcong.me)
+
 [Arxiv](https://arxiv.org/abs/2310.03337)
 
-### Our Strength
+## Our Strength
 * 🚀 Save at most **76%** computational cost without sacrificing quality
 * 🚀 Compatible with latent diffusion
 * 🚀 Compatible with sampling schedulers like DDIM and EDM
