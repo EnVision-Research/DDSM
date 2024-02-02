@@ -1,6 +1,6 @@
 --T=1000
 --attn=1
---batch_size=128
+--batch_size=256
 --beta_1=0.0001
 --beta_T=0.02
 --ch=128
@@ -17,7 +17,7 @@
 --grad_clip=1.0
 --img_size=32
 --logdir=./logs/DDPM_SLIM_CIFAR10_EPS
---lr=0.0002
+--lr=0.0004
 --mean_type=epsilon
 --num_images=50000
 --num_res_blocks=2
@@ -25,8 +25,8 @@
 --parallel
 --sample_size=64
 --sample_step=5000
---save_step=25000
---total_steps=800000
+--save_step=50000
+--total_steps=450000
 --train
 --var_type=fixedlarge
 --warmup=5000
@@ -37,4 +37,3 @@
 --candidate_width=0.75
 --candidate_width=0.5
 --assigned_width=1.0
-
