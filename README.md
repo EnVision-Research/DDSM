@@ -40,6 +40,8 @@ python main.py --train --flagfile ./config/slimmable_CIFAR10.txt --parallel --lo
 ```
 
 ## Quantitative Results
+![Image](asset/q1.png)
+![Image](asset/combine.png)
 
 ## Citation
 If you find this project useful in your research, please consider citing:
