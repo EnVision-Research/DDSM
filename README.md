@@ -19,15 +19,15 @@ pip install -r requirements.txt
 ```
 
 ## Inference and Evaluation
-1. prepare the pretrained supernet and flagfile (Download [supernet checkpoint]() and [flagfile]() here)
-2. save the search result to work_dir/search.txt (Download [search result]() here)
+1. prepare the pretrained supernet and flagfile (Download [supernet checkpoint](https://drive.google.com/file/d/1yGE2jfD9ou3BtjQ6KLjDrdEFDWlVbIkR/view?usp=sharing))
+2. prepare the stats of CIFAR-10 for computing FID (Download [stats file](https://drive.google.com/file/d/1uSYw17-vwGx0ewhUTnG7aUdmyPNP9ahG/view?usp=sharing))
 3. run the following script
 ```bash
-python main.py --flagfile work_dir/flagfile.txt --notrain --eval_stepaware -parallel --batch_size 1024 --ckpt_name ckpt_450000
+python main.py --flagfile eval/flagfile_eval.txt --notrain --eval_stepaware -parallel --batch_size 1024 --ckpt_name ckpt_450000
 ```
 
 ## Search
-1. prepare the pretrained supernet and flagfile (Download [supernet checkpoint]() and [flagfile]() here)
+1. prepare the pretrained supernet and flagfile (Download [supernet checkpoint](https://drive.google.com/file/d/1yGE2jfD9ou3BtjQ6KLjDrdEFDWlVbIkR/view?usp=sharing))
 2. run the following script
 ```bash
 python main.py --search --flagfile work_dir/flagfile.txt --parallel --batch_size 2048 --ckpt_name ckpt_450000 \
@@ -40,7 +40,11 @@ python main.py --train --flagfile ./config/slimmable_CIFAR10.txt --parallel --lo
 ```
 
 ## Quantitative Results
+
+### Results on CIFAR-10, CelebA-HQ, and ImageNet.
 ![Image](asset/q1.png)
+
+### Results of combining DDSM with DDIM
 ![Image](asset/combine.png)
 
 ## Citation
@@ -60,5 +64,5 @@ If you find this project useful in your research, please consider citing:
 ## TODO
 
 - [x] release DDSM training, search and inference code on CIFAR-10.
-- [ ] release checkpoint.
+- [x] release checkpoints.
 - [ ] make DDSM compatible with diffusers.
