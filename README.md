@@ -6,7 +6,7 @@
 [[Paper]](https://arxiv.org/abs/2310.03337)
 
 ## Our Strength
-* 🚀 Achieve up to 76% reduction in computational costs for diffusion models without compromising on quality
+* 🚀 Achieve up to **76%** reduction in computational costs for diffusion models without compromising on quality
 * 🚀 Compatible with latent diffusion
 * 🚀 Compatible with sampling schedulers like DDIM and EDM
 
